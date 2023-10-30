@@ -1,0 +1,149 @@
+.container {
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+}
+
+.title {
+    margin-top: 100px;
+}
+
+.input {
+    margin-top: 50px;
+    width: 45%;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid black;
+    font-size: 20px;
+    padding: 10px;
+}
+
+body {
+    background-color: beige
+}
+
+.input:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(158, 158, 158, 0.25);
+}
+
+.rule_container {
+    display: flex;
+    flex-direction: column;
+}
+
+.rule {
+    position: absolute;
+    background-color: white;
+    width: 50%;
+    height: 120px;
+    margin: 0 auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 25px;
+    text-align: start;
+    background-color: #ffecec;
+    display: none;
+    transition: transform 0.3s ease-in-out;
+    user-select: none;
+}
+
+.rule_number {
+    margin: 0;
+    background-color: #FFC7C7;
+    border-radius: 10px 10px 0px 0px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+    transition: all 0.7s;
+}
+
+.rule_text {
+    padding: 5px;
+    font-size: 20px
+}
+
+.span {
+    font-size: 40px;
+}
+
+.open {
+    display: block;
+    animation: superanim 1s;
+}
+
+@keyframes superanim {
+    from {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+.swipe-1 {
+    transform: translateY(-120%);
+}
+
+.swipe-2 {
+    transform: translateY(-240%);
+}
+
+.swipe-3 {
+    transform: translateY(-360%);
+}
+
+.swipe-4{
+    transform: translateY(-480%);
+}
+.swipe-5{
+    transform: translateY(-600%);
+}
+.swipe-6{
+    transform: translateY(-720%);
+}
+.swipe-7{
+    transform: translateY(-840%);
+}
+.swipe-8{
+    transform: translateY(-960%);
+}
+.swipe-9{
+    transform: translateY(-1080%);
+}
+.swipe0 {
+    transform: translateY(0%);
+}
+
+.swipe1 {
+    transform: translateY(120%);
+}
+
+.swipe2 {
+    transform: translateY(240%);
+}
+.swipe3{
+transform: translateY(360%);
+}
+.swipe4{
+transform: translateY(480%);
+}
+.swipe5{
+    transform: translateY(600%);
+}
+.swipe6{
+    transform: translateY(720%);
+}
+.swipe7{
+    transform: translateY(840%);
+}  
+.swipe8{
+    transform: translateY(960%);
+}  
+.swipe9{
+    transform: translateY(1080%);
+}
